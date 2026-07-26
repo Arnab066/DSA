@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Max_sub_brute {
     public static int maxSubArray(int[] nums) {
         int max = Integer.MIN_VALUE;
@@ -20,11 +18,7 @@ class Max_sub_brute {
     }
 
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int[] arr = new int[5];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
-        }
+        int[] arr = { 5, 8, 8, -6, 4 };
         System.out.println(maxSubArray(arr));
     }
 }
