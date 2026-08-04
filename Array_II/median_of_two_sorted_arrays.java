@@ -1,10 +1,7 @@
 package Array_II;
-
 public class median_of_two_sorted_arrays {
-
     public static void main(String[] args) {
-
-        int[] nums1 = { 1, 2 };
+        int[] nums1 = { 1, 2 , 3 , 4 , 5};
         int[] nums2 = { 3, 4 };
 
         int m = nums1.length;
