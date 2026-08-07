@@ -2,7 +2,7 @@ package Array_II;
 
 public class median_of_two_sorted_arrays {
     public static void main(String[] args) {
-        int[] nums1 = { 1, 2 , 3 , 4, 5, 6, 7 , 8 , 9 ,10 };
+        int[] nums1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         int[] nums2 = { 3, 4 };
         int m = nums1.length;
         int n = nums2.length;
