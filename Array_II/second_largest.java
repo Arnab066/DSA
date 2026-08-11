@@ -1,10 +1,7 @@
 package Array_II;
 
-import java.util.*;
-
-public class second_largest {
+class second_largest {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
         int arr[] = { 23, 4, 7, 8, 9 };
         long first = Long.MIN_VALUE;
         long second = Long.MIN_VALUE;
