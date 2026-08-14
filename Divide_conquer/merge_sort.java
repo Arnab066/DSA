@@ -1,6 +1,6 @@
 package Divide_conquer;
 import java.util.*;
-public class MergeSort {
+public class merge_sort {
     static void mergeSort(int[] arr, int low, int high) {
         if (low >= high) {
             return;
