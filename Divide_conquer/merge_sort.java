@@ -1,5 +1,7 @@
 package Divide_conquer;
+
 import java.util.*;
+
 public class merge_sort {
     static void mergeSort(int[] arr, int low, int high) {
         if (low >= high) {
@@ -12,6 +14,7 @@ public class merge_sort {
         // Merge
         merge(arr, low, mid, high);
     }
+
     static void merge(int[] arr, int low, int mid, int high) {
         int[] temp = new int[high - low + 1];
         int i = low;       // left array
